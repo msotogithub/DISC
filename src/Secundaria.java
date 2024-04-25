@@ -5,6 +5,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JPanel;
 
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JDialog.java to edit this template
@@ -250,6 +251,7 @@ public class Secundaria extends javax.swing.JDialog {
         String desc = "Descripción";
         String porcentaje = String.valueOf(valor*5);
         desc = calcula_desc(texto);
+        String test = "";
         
         switch (texto){
             case "D":
