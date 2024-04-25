@@ -25,7 +25,7 @@ public class Principal extends javax.swing.JFrame {
     public int controlador = 0;
     public int progreso = 0;
     public int valorprincipal = 0;
-    public int valorsecundario = 0;
+    public int valorsecundario = 1;
    
     // variables para calcular los perfiles y el patrón
     public String principal;
