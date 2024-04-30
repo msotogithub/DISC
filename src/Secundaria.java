@@ -250,7 +250,7 @@ public class Secundaria extends javax.swing.JDialog {
         String txt = "Ninguno";
         String desc = "Descripción";
         String porcentaje = String.valueOf(valor*5);
-       
+       desc = calcula_desc(texto);
         
         switch (texto){
             case "D":
